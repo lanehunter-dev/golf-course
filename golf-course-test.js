@@ -70,8 +70,6 @@ describe('Golf Course', function () {
   });
 });
 
-//---------------------------------------------------
-
 describe('Golfer', function () {
   it('should have a name and handicap', function () {
     var golfer = new Golfer({ name: 'Will', handicap: 21 });
